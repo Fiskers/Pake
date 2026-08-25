@@ -30,6 +30,7 @@ concurrency:
 
 jobs:
   publish:
+    if: github.repository == 'tw93/Pake'
     name: Publish pake-cli
     runs-on: ubuntu-latest
     steps:
